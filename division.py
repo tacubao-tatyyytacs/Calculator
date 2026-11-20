@@ -1,3 +1,4 @@
 def divide(num1, num2):
-    answer = num1 / num2
-    return answer
+    if num2 == 0:
+        return "Error. Cannot divide by Zero"
+    return num1 / num2

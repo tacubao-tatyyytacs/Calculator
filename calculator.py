@@ -1,3 +1,8 @@
+import addition
+import subtraction
+import multiplication
+import division
+
 num1 = float(input("Enter first number: "))
 num2 = float(input ("Enter second number: "))
 
@@ -9,16 +14,16 @@ print("4. Division")
 choice = input("Enter: ")
 
 if choice == "1":
-    #addition function diri
+    print("Result:", addition.add(num1, num2))
     pass
 elif choice == "2":
-    #sub func diri
+    print("Result:", subtraction.sub(num1, num2))
     pass
 elif choice == "3":
-    #mult
+    print("Result:", multiplication.multiply(num1, num2))
     pass
 elif choice == "4":
-    #div
+    print("Result:", division.divide(num1, num2))
     pass
 else :
     print("Invalid choice!")
